@@ -1,7 +1,7 @@
 pandoc -S \
   --epub-metadata=epub-metadata.xml \
   --epub-cover-image=cover.png \
-  --epub-stylesheet=epub-style.css \
+  --css=epub-style.css \
   -o ../learn-you-a-haskell.epub \
   01-introduction.md \
   02-starting-out.md \
