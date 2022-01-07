@@ -1,4 +1,4 @@
-pandoc -S \
+pandoc +smart \
   --epub-metadata=epub-metadata.xml \
   --epub-cover-image=cover.png \
   --css=epub-style.css \
